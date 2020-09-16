@@ -1,0 +1,16 @@
+.content-container {
+    // background-color: lime;
+    display: flex;
+    flex-direction: row;
+
+    .navigation {
+        // background-color: orange;
+        width: 160px;
+    }
+
+    .content {
+        // background-color: darkcyan;
+        width: 100%;
+    }
+
+}

@@ -1,0 +1,13 @@
+<p>login works!</p>
+<h4><a [routerLink]="'/'" routerLinkActive="active">Pfeil zurück</a></h4>
+
+<label>Benutzername</label>
+<input type="text" [(ngModel)]="username">
+
+<label>Kennwort</label>
+<input type="password" [(ngModel)]="password">
+<br>
+
+<!-- Für Testzwecke kann die erste Zeile genutzt werden -->
+<button [routerLink]="'/mc/dashboard'">Jetzt anmelden</button>
+<!-- <button (click)="onClickLogin()">Jetzt anmelden</button> -->

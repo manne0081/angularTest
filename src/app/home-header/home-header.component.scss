@@ -1,0 +1,50 @@
+
+$base-color: darkseagreen;
+
+.navigation-container {    
+    background-color: $base-color;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    .button-searching-container {
+        // background-color: lime;
+        margin-left: 5px;
+        width: 300px;
+    }
+    .button {
+        width: 30px;
+        height: 30px;
+        margin-right: 5px;
+    }
+    .searching {
+        width: 200px;
+        height: 20px;
+        margin-top: -2px;
+        padding-top: 1px;
+        padding-left: 5px;
+        border-radius: 12px;
+    }
+
+    .logo-container {
+        // background-color: orange;
+        flex-grow: 2;
+        text-align: center;
+    }
+
+    .header-menu-container {
+        // background-color: lime;
+        width: 300px;
+    }
+    .menu-list {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        justify-content: right;
+    }
+    .list-item {
+        padding: 0 5px;
+    }
+
+}

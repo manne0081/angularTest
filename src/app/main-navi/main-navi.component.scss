@@ -1,0 +1,36 @@
+.navigation-container {
+    background-color: burlywood;
+}
+
+.navigation-item {
+    background-color: burlywood;
+    height: 24px;
+    // margin-top: 1px;
+    padding-top: 4px;
+    padding-left: 6px;    
+}
+
+.navigation-item:hover {
+    background-color: gainsboro;
+}
+
+.list-item-link {
+    cursor: pointer;
+}
+
+.active {
+    color: darkcyan;
+}
+
+a {
+    text-decoration: none;    
+}
+a:link {
+    color: lime;
+}
+a:hover {
+    // color: orange;
+}
+a:active {
+    color: black;
+}
