@@ -24,4 +24,7 @@ export class EmployeeService {
     return this.employeeList;
   }
 
+  setEmployee() {
+    //this.employeeList.push;
+  }
 }

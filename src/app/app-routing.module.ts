@@ -8,6 +8,8 @@ import { UserComponent } from './user/user.component';
 import { Page1Component } from './page1/page1.component';
 import { Page2Component } from './page2/page2.component';
 import { EmployeeListComponent } from './employee/employee-list/employee-list.component';
+import { EmployeeAddComponent } from './employee/employee-add/employee-add.component';
+import { EmployeeEditComponent } from './employee/employee-edit/employee-edit.component';
 
 const routes: Routes = [
     {path: '', component: HomeComponent},
@@ -17,9 +19,9 @@ const routes: Routes = [
             // { path: '', redirectTo: 'overview', pathMatch: 'full' },
             { path: 'dashboard', component: DashboardComponent },
             { path: 'employee', component: EmployeeListComponent },
+            { path: 'employee/employee-add', component: EmployeeAddComponent },
             { path: 'user', component: UserComponent },
-            { path: 'page2', component: Page2Component }  
- 
+            { path: 'page2', component: Page2Component } 
         ]
     }
 ];

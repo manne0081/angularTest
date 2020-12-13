@@ -1,1 +1,11 @@
-<p>employee-add works!</p>
+<div style="padding: 10px;">
+    <div style="padding-bottom: 10px;">
+        <button [routerLink]="'/mc/employee'" >
+            Zurück zur Liste...
+        </button>
+    </div>
+
+    <label>Name:</label><input type="text" [(ngModel)]="name">
+
+    {{ name }}
+</div>
