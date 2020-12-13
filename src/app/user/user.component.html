@@ -1,0 +1,11 @@
+<div style="padding: 10px;">
+    <button>Neuen User anlegen</button>
+</div>
+
+<div style="padding-left: 10px;">
+    <div *ngFor="let user of userList">
+        <div>
+            {{ user.userNumber }} - {{ user.userName }}
+        </div>
+    </div>
+</div>

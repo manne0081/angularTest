@@ -14,6 +14,10 @@ import { MainNaviComponent } from './main-navi/main-navi.component';
 import { FooterComponent } from './footer/footer.component';
 import { MainContentComponent } from './main-content/main-content.component';
 import { HomeHeaderComponent } from './home-header/home-header.component';
+import { UserComponent } from './user/user.component';
+import { EmployeeListComponent } from './employee/employee-list/employee-list.component';
+import { EmployeeAddComponent } from './employee/employee-add/employee-add.component';
+import { EmployeeEditComponent } from './employee/employee-edit/employee-edit.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +31,11 @@ import { HomeHeaderComponent } from './home-header/home-header.component';
     MainNaviComponent,
     FooterComponent,
     MainContentComponent,
-    HomeHeaderComponent
+    HomeHeaderComponent,
+    UserComponent,
+    EmployeeListComponent,
+    EmployeeAddComponent,
+    EmployeeEditComponent,
   ],
   imports: [
     BrowserModule,

@@ -4,8 +4,10 @@ import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { MainContentComponent } from './main-content/main-content.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { UserComponent } from './user/user.component';
 import { Page1Component } from './page1/page1.component';
 import { Page2Component } from './page2/page2.component';
+import { EmployeeListComponent } from './employee/employee-list/employee-list.component';
 
 const routes: Routes = [
     {path: '', component: HomeComponent},
@@ -14,7 +16,8 @@ const routes: Routes = [
         children: [
             // { path: '', redirectTo: 'overview', pathMatch: 'full' },
             { path: 'dashboard', component: DashboardComponent },
-            { path: 'page1', component: Page1Component },
+            { path: 'employee', component: EmployeeListComponent },
+            { path: 'user', component: UserComponent },
             { path: 'page2', component: Page2Component }  
  
         ]
