@@ -1,7 +1,7 @@
 
 $base-color: darkseagreen;
 
-.navigation-container {    
+.navigation-container {
     background-color: $base-color;
     height: 40px;
     display: flex;
@@ -29,7 +29,7 @@ $base-color: darkseagreen;
 
     .logo-container {
         // background-color: orange;
-        flex-grow: 2;
+        flex-grow: 4;
         text-align: center;
     }
 

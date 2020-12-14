@@ -1,11 +1,15 @@
 <div style="padding: 10px;">
     <div style="padding-bottom: 10px;">
-        <button [routerLink]="'/mc/employee'" >
-            Zurück zur Liste...
-        </button>
+        <button style="margin-right: 10px;" [routerLink]="'/mc/employee'" >Zurück zur Liste</button>
+        <button (click)="onClickSave()">Speichern</button>
     </div>
 
-    <label style="margin-right: 10px;">Name:</label><input type="text" [(ngModel)]="name">
+    <label style="margin-right: 10px;">Name:</label><input type="text" [(ngModel)]="name" (keydown)="clearErrorMessage($event)" [className]="inputError ? 'testClass' : 'testClass2'">
+    <br>
+    <label style="margin-right: 10px;">Name:</label><input type="text" [(ngModel)]="name" (keydown)="clearErrorMessage($event)" [ngClass]="'testClass'">
+    <br>
+    <div [className]="inputError ? 'testClass' : 'testClass2'">test2</div>
 
-    {{ name }}
+    <br>
+    {{ errorMessage }}
 </div>
